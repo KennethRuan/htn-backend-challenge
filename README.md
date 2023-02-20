@@ -36,7 +36,7 @@ docker-compose up
 ```
 
 From here, the Docker image and container will automatically be setup. 
-After it is up and running, you the API endpoint will be hosted at `localhost:8000`.
+After it is up and running, the API endpoint will be hosted at `localhost:8000`.
 
 ## Implementation Details
 
