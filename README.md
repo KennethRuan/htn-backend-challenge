@@ -27,7 +27,7 @@ cd htn-backend-challenge
 At this point, all of the project files will have been installed. To get the initial hacker data into the database, we can run the JSON parser script.
 Note, if data has already been put into the `hackers` or `skills` tables in the database, they will be reset.
 ```sh
-python3 ./scripts/parser.py
+python3 ./backend/scripts/parser.py
 ``` 
 
 Afterwards, run

@@ -56,12 +56,12 @@ with open(path_to_json, 'r') as json_file:
     # Resets the tables if there is already data stored
     if hacker_count > 0 and skill_count > 0:
         cur.execute('DELETE FROM hackers')
-        cur.execute('DELETE FROM SQLITE_SEQUENCE WHERE name=hackers;')
+        cur.execute('DELETE FROM SQLITE_SEQUENCE WHERE name="hackers";')
 
         cur.execute('DELETE FROM skills')
-        cur.execute('DELETE FROM SQLITE_SEQUENCE WHERE name=skills;')
+        cur.execute('DELETE FROM SQLITE_SEQUENCE WHERE name="skills";')
 
-        print(f"The values inside the hackers and skills tables were reset with the JSON file at {}.", path_to_json) 
+        print(f"The values inside the hackers and skills tables were reset with the JSON file at {path_to_json}.") 
 
 
     idh = 1
