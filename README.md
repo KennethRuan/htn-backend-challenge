@@ -15,7 +15,7 @@ These are the features currently supported by the API:
 
 ## Installation
 
-The backend setup utilizes Docker for dependencies. To begin, make sure that you have Docker installed on a Linux system.
+To begin, make sure that you have Python3 and Docker installed on a Linux system.
 If you are on Windows, you can follow this [installation guide](https://docs.docker.com/desktop/install/windows-install/) provided by Docker. 
 
 To setup the project, start by cloning the repository and navigating into its directory
